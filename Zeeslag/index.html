@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<title>Zeeslagroom!!!</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" defer></script>
+		<script src="javascript/BoardController.js" defer></script>
+		<script src="javascript/MenuController.js" defer></script>
+		<script src="javascript/ShipController.js" defer></script>
+		<script src="javascript/javascript.js" defer></script>
+	</head>
+	<body>
+		<table id="board">
+
+		</table>
+		<div id="completeShipMenu">
+			<div id="selectedShip">
+				<div id="selection">
+					
+				</div>
+				<div id="buttons">
+					<button id="turn" class="turnButton">turn</button>
+				</div>
+			</div>
+			<div id="optionsShips" class="optionsShip">
+				<table id="ships">
+					<tr id="battleship">
+						<td>Battleship</td>
+						<td class="ammount">1</td>
+						<td class="ship"></td>
+					</tr>
+					<tr id="cruiser">
+						<td>Cruiser</td>
+						<td class="ammount">2</td>
+						<td class="ship"></td>
+					</tr>
+					<tr id="frigate">
+						<td>Frigate</td>
+						<td class="ammount">4</td>
+						<td class="ship"></td>
+					</tr>
+					<tr id="minesweeper">
+						<td>Minesweeper</td>
+						<td class="ammount">4</td>
+						<td class="ship"></td>
+					</tr>
+				</table>
+			</div>
+			<button id="place" class="placeButton">place</button>
+		</div>
+	</body>
+</html>

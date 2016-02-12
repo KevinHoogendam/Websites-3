@@ -1,0 +1,154 @@
+.tile{
+	width: 50px;
+	height: 50px;
+	background-color: #00FFFF;
+}
+
+.tileClicked{
+	width: 50px;
+	height: 50px;
+	background-color: #FFFF00;
+}
+
+#board{
+	margin: 5px;
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+}
+
+#completeShipMenu{
+	margin: 5px;
+	float:left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+}
+
+.optionsShip{
+	border-top-style: dashed;
+	border-top-width: 1px;
+	border-top-color: #000000;
+}
+
+#ships{
+	margin-top: 2px;
+	margin-bottom: 3px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.battleshipHori{
+	width: 250px;
+	height: 50px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	background-image:url('images/battleshipHori.png');
+}
+
+.cruiserHori{
+	width: 200px;
+	height: 50px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	background-image:url('images/cruiserHori.png');
+}
+
+.frigateHori{
+	width: 150px;
+	height: 50px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	background-image:url('images/frigateHori.png');
+}
+
+.minesweeperHori{
+	width: 100px;
+	height: 50px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	background-image:url('images/minesweeperHori.png');
+}
+
+.battleshipVerti{
+	width: 50px;
+	height: 250px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	background-image:url('images/battleshipVerti.png');
+}
+
+.cruiserVerti{
+	width: 50px;
+	height: 200px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	background-image:url('images/cruiserVerti.png');
+}
+
+.frigateVerti{
+	width: 50px;
+	height: 150px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	background-image:url('images/frigateVerti.png');
+}
+
+.minesweeperVerti{
+	width: 50px;
+	height: 100px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	background-image:url('images/minesweeperVerti.png');
+}
+
+#completeShipMenu{
+	width: 380px;
+}
+
+#selectedShip{
+	width: 380px;
+	height: 290px;
+}
+
+#selection{
+	float: left;
+	width: 270px;
+	height: 270px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.selectedView{
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#buttons{
+	float: left;
+	width: 75px;
+	height: 270px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	margin-top: 10px;
+}
+
+.turnButton{
+	height: 270px;
+	width: 75px;
+}
